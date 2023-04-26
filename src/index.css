@@ -1,0 +1,38 @@
+body {
+  background-image: url(../src/assets/img/fondo.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Sigmar', cursive;
+  color: white;
+}
+
+.hola {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  align-items: start;
+  justify-content: flex-start;
+  align-content: start;
+  gap: 5px;
+}
+
+input {
+  border-radius: 10px;
+  border-color: none;
+  border-width: 0px;
+}
+
+
+header {
+  font-size: 50px;
+  font-style: oblique;
+  margin-bottom: 20px;
+  margin: 30px;
+}
+
+footer {
+  background-color: black;
+  padding: 30px;
+  margin-top: 20rem;
+  text-align: center;
+}
